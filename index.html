@@ -2,55 +2,86 @@
 <html lang="end">
 <head>
     <title>Michael Pugina</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto"
+          rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-<div>
-    <h1 id="applicant-name">Michael Pugina</h1>
-    <span id="applicant-position">Senior Web Engineer</span>
-    <span id="phone-number">801.709.0630</span>
-    <span id="email-address">mapugina@gmail.com</span>
+<div class="headline">
+    <div class="applicant">
+        <span id="applicant-name">Michael Pugina</span>
+        <span id="applicant-position">Senior Web Engineer</span>
+    </div>
+
+    <div class="contact-info">
+        <span id="phone-number">801.709.0630</span>
+        <span id="email-address">mapugina@gmail.com</span>
+    </div>
 </div>
-<div class="technical-skills">
-    <h2>Technologies</h2>
+<div id="technical-skills" class="section">
+    <div class="section-title">Technologies</div>
     <ul class="technologies">
-        <li>Node and npm</li>
+        <li>Node and NPM</li>
         <li>Webpack</li>
-        <li>AngularJS and Angular</li>
-        <li>HTML/CSS/ES6</li>
-        <li>R</li>
+        <li>Typescript</li>
+        <li>Angular v.1-6</li>
+        <li>HTML/CSS/ES6+</li>
         <li>Git</li>
     </ul>
 </div>
-<div class="job-experience">
+<div id="job-experience" class="section">
     <div class="job">
-        <h2>Applicable Experience</h2>
+        <div class="section-title">Applicable Experience</div>
         <div class="job-company">Hughes Network Solutions</div>
         <div class="position">
-            <span class="position-title">Lead Frontend Engineer</span>
-            <span class="position-held-range">2018-Present</span>
+            <div class="position-heading">
+                <span class="position-title">Lead Frontend Engineer</span>
+                <span class="position-held-range">
+                    2018 - Present
+                </span>
+            </div>
             <ul class="position-duties">
-                <li>Collaborate with Engineering, design, and management on behalf of the frontend team</li>
+                <li>Collaborate with Engineering, design, and management on
+                    behalf of the frontend team
+                </li>
                 <li>Review and approve pull requests from engineers</li>
-                <li>Find and apply new technologies to keep development current and running smoothly</li>
+                <li>Find and apply new technologies to keep development current
+                    and running smoothly
+                </li>
                 <li>Assist other software engineers in completion of tasks</li>
             </ul>
         </div>
         <div class="position">
-            <span class="position-title">Frontend Software Engineer</span>
-            <span class="position-held-range">2015-2018</span>
+            <div class="position-heading">
+                <span class="position-title">Frontend Software Engineer</span>
+                <span class="position-held-range">
+                    2015 - 2018
+                </span>
+            </div>
             <ul class="position-duties">
-                <li>Discovered new features based on customer requests and designs</li>
-                <li>Documented processes, application architecture, and work to be completed</li>
-                <li>Developed suites</li>
+                <li>Discovered new features based on customer requests and
+                    designs
+                </li>
+                <li>Documented processes, application architecture, and work to
+                    be completed
+                </li>
+                <li>Developed suites of developer tool, tests, and build system</li>
             </ul>
         </div>
         <div class="position">
-            <span class="position-title">Development Intern</span>
-            <span class="position-held-range">2014-2015</span>
+            <div class="position-heading">
+                <span class="position-title">Development Intern</span>
+                <span class="position-held-range">
+                    2014 - 2015
+                </span>
+            </div>
             <ul class="position-duties">
-                <li>Define, mock and consume RESTful API</li>
-                <li>Rewrite an existing tightly coupled web application's frontend in angularjs</li>
-                <li>Work with other interns and developers to explore project requirements based exclusively on an
+                <li>Define, mock and consume RESTful APIs</li>
+                <li>Rewrite an existing tightly coupled web application's
+                    frontend as a responsive web app
+                </li>
+                <li>Work with other interns and developers to explore project
+                    requirements based exclusively on an
                     existing application
                 </li>
             </ul>
@@ -59,11 +90,52 @@
     <div class="job">
         <div class="job-company">Neovest/J.P. Morgan</div>
         <div class="position">
-            <span class="position-title">Testing Intern</span>
-            <span class="position-held-range">2010-2011</span>
+            <div class="position-heading">
+                <span class="position-title">Testing Intern</span>
+                <span class="position-held-range">
+                    2010 - 2011
+                </span>
+            </div>
             <ul class="position-duties">
                 <li>Created and maintained automation scripts</li>
-                <li>Manually tested software for new releases to locate and report bugs</li>
+                <li>Manually tested software for new releases to locate and
+                    report bugs
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div id="education" class="section">
+    <div class="section-title">Education</div>
+    <div class="job">
+        <div class="job-company">Utah Valley University</div>
+        <div class="position">
+            <div class="position-heading">
+                <span class="position-title">Computer Science (In progress)</span>
+                <span class="position-held-range">
+                    2006 - Present
+            </span>
+
+            </div>
+            <ul class="position-duties">
+                <li>Senior Status (14 credits remaining)</li>
+                <li>Expected Gradation: Spring 2020</li>
+            </ul>
+        </div>
+    </div>
+    <div class="job">
+        <div class="job-company">Skyline Senior High School</div>
+        <div class="position">
+            <div class="position-heading">
+                <span class="position-title">High School Diploma</span>
+                <span class="position-held-range">
+                    2003 - 2006
+            </span>
+
+            </div>
+            <ul class="position-duties">
+                <li>Graduated with Honors in Debate</li>
+                <li>Second in State Debate</li>
             </ul>
         </div>
     </div>
